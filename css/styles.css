@@ -1,10 +1,8 @@
-
 h1 {
   color: #296d98;
   text-align: center;
-  font-size: 2.4em;
+  font-size: 1.2em;
 }
-
 li {
   display: inline;
 }
@@ -15,7 +13,6 @@ ul {
   overflow: hidden;
   background-color: #296d98;
 }
-
 li {
   float: left;
   border-right:solid 1px #fff;
@@ -35,9 +32,7 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #192841;
-
 }
-
 .footer {
   position: fixed;
   left: 0;
@@ -47,7 +42,6 @@ li a:hover:not(.active) {
   color: white;
   text-align: center;
 }
-
 form {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -55,14 +49,54 @@ form {
 }
 #about-content p,
 #about-content ul{
-  margin-right: 20%;
-  margin-left: 20%;
-  display: block;
+  font-size: 1em;
+  line-height: 1.1em;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 20px;
 }
 #questions{
-  display: unset;
   background-color: unset;
   list-style-type: unset;
-  padding-left: 40px;
-  display:block;
+  padding-left: 20px;
+}
+ul li{
+  display: list-item;
+  list-style-type: circle;
+}
+@media screen and (min-width: 480px) {
+  h1{
+
+  }
+  #about-content p,
+  #about-content ul{
+    font-size: 1.2em;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 20px;
+  }
+  #questions{
+    background-color: unset;
+    list-style-type: unset;
+    padding-left: 30px;
+  }
+
+@media screen and (min-width: 768px) {
+  h1{
+
+  }
+  #about-content p,
+  #about-content ul{
+    font-size: 1.2em;
+    line-height: 1.1em;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-bottom: 20px;
+
+  }
+  #questions{
+    background-color: unset;
+    list-style-type: unset;
+    padding-left: 40px;
+  }
 }
