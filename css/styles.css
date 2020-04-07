@@ -2,19 +2,18 @@
 h1 {
   color: #296d98;
   text-align: center;
+  font-size: 2.4em;
 }
 
 li {
   display: inline;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #296d98;
-
 }
 
 li {
@@ -53,4 +52,17 @@ form {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+#about-content p,
+#about-content ul{
+  margin-right: 20%;
+  margin-left: 20%;
+  display: block;
+}
+#questions{
+  display: unset;
+  background-color: unset;
+  list-style-type: unset;
+  padding-left: 40px;
+  display:block;
 }
