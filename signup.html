@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/normalize.css" />
   <link rel="stylesheet" media="screen" href="css/styles.css" />
+  <script src="js/script.js" async> </script>
 </head>
 <body>
   <h1><img src="media/icon.png" alt="logo"/>The International Society for Universal Dialogue</h1>
@@ -17,10 +18,10 @@
 </ul>
 <div>
   <h3 id="center">Join us now in the search for answers by becoming an active member with the ISUD.</h3>
-  <p> Subscibe to receive emails with our weekly inspirational quotes, news and events happening near you. </p>
+  <p id="text_center"> Subscibe to receive emails with our weekly inspirational quotes, news and events happening near you. </p>
 </div>
 <form method="get" autocomplete="on" action="#">
-  <div id="body">
+  <div id="signup_form">
    <fieldset>
      <div id="first_name"><label>First Name:<input type="text" name="first_name_field" required></label></div>
      <div id="last_name"><label>Last Name:<input type="text" name="last_name_field" required></label></div>
@@ -30,7 +31,12 @@
    </fieldset>
   </div>
   <input type="submit" onclick="AlertPage()" value="SUBMIT"/>
+  <div >
+   <img id="pic1" src="media/pic1.png" alt="map"/>
+  </div>
 </form>
+
+
 
 
 <div class="footer">
