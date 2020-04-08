@@ -269,6 +269,7 @@ input[type=submit]:hover{
     display: list-item;
     list-style-type: circle;
   }
+}
 
 @media screen and (min-width: 768px) {
   h1{
@@ -305,6 +306,12 @@ input[type=submit]:hover{
     margin-left: 40px;
     display: list-item;
     list-style-type: circle;
+  }
+  .images img {
+    padding-left: 10%;
+    padding-right: 10%;
+    width:80%;
+    border-radius: 50%;
   }
 }
 @media screen and (min-width: 1100px) {
