@@ -3,18 +3,24 @@ html{
 }
 h1 {
   color: #296d98;
-  text-align: center;
+  text-align:center;
   font-size: 1.2em;
+  padding-bottom: 10px;
 }
 h1 img{
-
+  display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 35%;
 }
 li {
   display: inline;
 }
 ul {
   list-style-type: none;
-  margin: 10px;
+  margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #296d98;
@@ -189,13 +195,13 @@ input[type=submit]:hover{
   border-radius: 50%;
 }
 @media screen and (min-width: 480px) {
-  h1{
-
+  h1 {
+    font-size: 1.5em;
   }
   #about-content p,
   #about-content ul{
     font-size: 1.2em;
-    margin-right: 10%;
+    padding-right: 10%;
     margin-left: 10%;
     padding-bottom: 20px;
   }
@@ -207,7 +213,15 @@ input[type=submit]:hover{
 
 @media screen and (min-width: 768px) {
   h1{
-
+    font-size: 1.8em;
+  }
+  h1 img{
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: unset;
+    width: 200px;
   }
   #about-content p,
   #about-content ul{
@@ -225,8 +239,9 @@ input[type=submit]:hover{
 }
 @media screen and (min-width: 1100px) {
   h1{
-
+    font-size: 2.2em;
   }
+
   #about-content p,
   #about-content ul{
     font-size: 1.2em;
