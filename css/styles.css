@@ -85,14 +85,6 @@ form {
   padding: 20px;
 }
 
-#pic1{
-width: 40%;
-height: 40%;
-padding-left: 20px;
-position:absolute;
-left:5px;
-top:400px;
-}
 
 #signup_form{
   border-style: inset;
@@ -250,6 +242,98 @@ input[type=submit]:hover{
     display: list-item;
     list-style-type: circle;
   }
+  #pic1{
+  width: 35%;
+  height: 25%;
+  padding-left: 20px;
+  position:absolute;
+  left:5px;
+  top:500px;
+  }
+  #signup_form{
+    border-style: inset;
+    border: 2px solid steelblue;
+    border-radius: 5px 5px 5px 5px;
+    width: 63%;
+    margin: 8px 190px;
+
+  }
+  #text_center{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: steelblue;
+    padding-bottom: 16px;
+    margin-top: 10px;
+    margin-left: 0em;
+  }
+  #first_name, #last_name, #email, #phone, #date_of_birth{
+    padding-bottom: .3em;
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: Black;
+  }
+
+  input[type=text]{
+    width: 160px;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: Azure;
+    border: solid steelblue;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+  }
+
+  input[type=email]{
+    width: 160px;
+    height: 30px;
+    margin: 8px 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: Azure;
+    border: solid steelblue;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+  }
+
+  input[type=tel]{
+    width: 160px;
+    height:30px;
+    margin: 8px 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: Azure;
+    border: solid steelblue;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+  }
+
+  input[type=submit]{
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px 290px;
+    background-color: steelblue;
+    border-radius: 5px 5px 5px 5px;
+    color: Azure;
+    border: 2px solid steelblue;
+    font-family: Arial, sans-serif;
+  }
+  #center{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: steelblue;
+    padding-bottom: 16px;
+    margin-top: 10px;
+    margin-left: 0em;
+  }
+
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -293,6 +377,7 @@ input[type=submit]:hover{
     width:80%;
     border-radius: 50%;
   }
+
 }
 @media screen and (min-width: 1100px) {
   h1{
@@ -315,6 +400,100 @@ input[type=submit]:hover{
   }
   #questions{
     padding-left: 40px;
+  }
+  #pic1{
+  width: 40%;
+  height: 40%;
+  padding-left: 20px;
+  position:absolute;
+  left:5px;
+  top:400px;
+  }
+  #signup_form{
+    border-style: inset;
+    border: 2px solid steelblue;
+    border-radius: 5px 5px 5px 5px;
+    width: 36%;
+    margin: 8px 650px;
+  }
+  #text_center{
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: steelblue;
+    padding-bottom: 16px;
+    margin-top: 1px;
+    margin-left: 25em;
+  }
+  #first_name, #last_name, #email, #phone, #date_of_birth{
+    padding-bottom: .3em;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: Black;
+  }
+
+  input[type=text]{
+    width: 240px;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: Azure;
+    border: solid steelblue;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+  }
+
+  input[type=email]{
+    width: 340px;
+    height: 30px;
+    margin: 8px 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: Azure;
+    border: solid steelblue;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+  }
+
+  input::placeholder{
+    color: lightblue;
+    font-size: 0.8em;
+    font-style: italic;
+  }
+
+  input[type=tel]{
+    width: 340px;
+    height:30px;
+    margin: 8px 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: Azure;
+    border: solid steelblue;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+  }
+
+  input[type=submit]{
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px 840px;
+    background-color: steelblue;
+    border-radius: 5px 5px 5px 5px;
+    color: Azure;
+    border: 2px solid steelblue;
+    font-family: Arial, sans-serif;
+  }
+  #center{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: steelblue;
+    padding-bottom: 16px;
+    margin-top: 10px;
+    margin-left: 6em;
   }
 
 }
