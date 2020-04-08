@@ -19,9 +19,8 @@
   <li><a href="signup.html">Sign Up</a></li>
   <li><a class ="active" href="payment.html">Payment</a></li>
 </ul>
-
-<h2> Payment Information</p2>
-<form>
+<h3>Please enter your Payment Information</h3>
+<form id="payment-form">
   <p><label for="fullname"> Full Name:</label>
   <input type="text" id="name" name="name"></p>
 
@@ -31,8 +30,8 @@
   <p><label for="date"> Expiration Date:</label>
   <input type="date" id="date" name="date"></p>
 
-  <p><button type="submit" value="Submit" onclick="AlertPage()">Submit</button>   
-  <button type="reset" value="Reset">Delete</button></p>
+  <p><input type="submit" onclick="submitPayment()" value="Submit" class="payment-buttons"/>
+  <button type="reset" value="Reset" class="payment-buttons">Delete</button></p>
 </form>
 
 <div class="footer">

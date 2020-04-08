@@ -94,7 +94,8 @@ form {
   margin: 8px 650px;
 }
 
-#first_name, #last_name, #email, #phone, #date_of_birth{
+#first_name, #last_name, #email, #phone, #date_of_birth,
+#date, #cc{
   padding-bottom: .3em;
   font-size: 1em;
   font-weight: bold;
@@ -120,7 +121,24 @@ input[type=email]{
   border: solid steelblue;
   font-size: 1em;
 }
-
+input[type=number]{
+  width: 340px;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input[type=date]{
+  width: 340px;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
 input::placeholder{
   color: lightblue;
   font-size: 0.8em;
@@ -148,8 +166,22 @@ input[type=submit]{
   color: Azure;
   border: 2px solid steelblue;
 }
-
+button{
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 20px 840px;
+  background-color: steelblue;
+  border-radius: 5px 5px 5px 5px;
+  color: Azure;
+  border: 2px solid steelblue;
+}
 input[type=submit]:hover{
+  background-color: white;
+  color: black;
+}
+button:hover{
   background-color: white;
   color: black;
 }
