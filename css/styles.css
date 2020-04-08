@@ -49,13 +49,12 @@ ul {
   overflow: hidden;
   background-color: #296d98;
 }
-li {
-  float: left;
-  border-right:solid 1px #fff;
+.links{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
-
 li a {
-  display: flex;
+  display:block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -64,11 +63,13 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #192841;
+  background-color: lightgrey;
+  color: black;
 }
 
 .active {
   background-color: #192841;
+  font-weight: bold;
 }
 .footer {
   position: fixed;
@@ -188,30 +189,8 @@ input[type=submit]:hover{
   margin-left: 25em;
 }
 =======
-/*#about-content{
-  margin-right: 10px;
-  margin-left: 10px;
-}
-#about-content p,
-#about-content ul{
-  display: inline-block;
-  font-size: 1.2em;
-  line-height: 1.1em;
-  margin-right: 15%;
-  margin-left: 15%;
-  padding-bottom: 20px;
-}
-#questions{
-  background-color: unset;
-  list-style-type: unset;
-  padding-left: 20px;
-}
-#questions li{
-  display: list-item;
-  list-style-type: circle;
-}*/
 #about-content{
-  padding:unset;
+  text-align: unset;
 }
 #about-content p,
 #about-content ul{
@@ -220,10 +199,12 @@ input[type=submit]:hover{
   margin-right: 5%;
   margin-left: 5%;
   padding-bottom: 20px;
+  text-align: left;
 }
 #questions{
   background-color: unset;
   list-style-type: unset;
+  display: inline-block;
   padding-left: 20px;
 }
 #questions li{
@@ -273,12 +254,11 @@ input[type=submit]:hover{
 
 @media screen and (min-width: 768px) {
   h1{
-    font-size: 1.8em;
+    font-size: 1.7em;
     text-align: center;
   }
   h1 img{
     margin-top: 10px;
-    margin-right: 10px;
     margin-bottom: 10px;
     margin-left: unset;
     width: 200px;
