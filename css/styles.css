@@ -15,6 +15,29 @@ h1 img{
   margin-bottom: 10px;
   width: 35%;
 }
+h3{
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.1em;
+  font-weight: bold;
+  color: steelblue;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#pic2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#signup-link{
+  text-decoration: none;
+  color: #296d98;
+}
+#signup-link:hover{
+  color: #192841;
+}
 li {
   display: inline;
 }
@@ -46,11 +69,11 @@ li a:hover:not(.active) {
   background-color: #192841;
 }
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
-  bottom: 30;
+  bottom: 0;
   width: 100%;
-  height: 100%;
+  height: 20px;
   background-color: #296d98;
   color: white;
   text-align: center;
@@ -168,6 +191,7 @@ input[type=submit]:hover{
 
 #about-content p,
 #about-content ul{
+  display: inline-block;
   font-size: 1.2em;
   line-height: 1.1em;
   margin-right: 15%;
@@ -198,6 +222,14 @@ input[type=submit]:hover{
   h1 {
     font-size: 1.5em;
   }
+  h3{
+    padding-top: 20px;
+    font-size: 1.4em;
+  }
+  #pic2{
+    width: 90%;
+    margin: auto;
+  }
   #about-content p,
   #about-content ul{
     font-size: 1.2em;
@@ -214,6 +246,13 @@ input[type=submit]:hover{
 @media screen and (min-width: 768px) {
   h1{
     font-size: 1.8em;
+  }
+  h3{
+    font-size: 1.5em;
+    padding-top: 40px;
+  }
+  #pic2{
+    width: 80%;
   }
   h1 img{
     display: block;
@@ -241,7 +280,13 @@ input[type=submit]:hover{
   h1{
     font-size: 2.2em;
   }
-
+  h3{
+    font-size: 1.8em;
+    padding-top: 60px;
+  }
+  #pic2{
+    width: 60%;
+  }
   #about-content p,
   #about-content ul{
     font-size: 1.2em;
