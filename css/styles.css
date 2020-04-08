@@ -1,5 +1,6 @@
 html{
   font-family: 'Merriweather', Times, serif;
+  padding-bottom: 40px;
 }
 h1 {
   color: #296d98;
@@ -31,11 +32,11 @@ h3{
   margin-right: auto;
   width: 100%;
 }
-#signup-link{
+.link{
   text-decoration: none;
   color: #296d98;
 }
-#signup-link:hover{
+.link:hover{
   color: #192841;
 }
 li {
@@ -246,7 +247,13 @@ input[type=submit]:hover{
     font-size: 1.8em;
     text-align: center;
   }
-  .header > *{
+  h1 img{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: unset;
+    width: 200px;
+    display: inline-block;
     vertical-align: middle;
   }
   h3{
@@ -255,15 +262,6 @@ input[type=submit]:hover{
   }
   #pic2{
     width: 80%;
-  }
-  h1 img{
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: unset;
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
   }
   #about-content p,
   #about-content ul{
