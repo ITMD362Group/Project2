@@ -32,6 +32,11 @@ h3{
   margin-right: auto;
   width: 100%;
 }
+#pic1{
+  max-width: 100%;
+  height: relative;
+  position:relative;
+}
 .link{
   text-decoration: none;
   color: #296d98;
@@ -84,14 +89,11 @@ form {
   background-color: #f2f2f2;
   padding: 20px;
 }
-
-
 #signup_form{
   border-style: inset;
   border: 2px solid steelblue;
   border-radius: 5px 5px 5px 5px;
-  width: 36%;
-  margin: 8px 650px;
+  margin: 8px;
 }
 
 #first_name, #last_name, #email, #phone, #date_of_birth,
@@ -103,9 +105,9 @@ form {
 }
 
 input[type=text]{
-  width: 240px;
+  width: 95%;
   height: 30px;
-  margin: 10px 0;
+  margin: 8px 0;
   border-radius: 5px 5px 5px 5px;
   background-color: Azure;
   border: solid steelblue;
@@ -113,7 +115,7 @@ input[type=text]{
 }
 
 input[type=email]{
-  width: 340px;
+  width: 95%;
   height: 30px;
   margin: 8px 0;
   border-radius: 5px 5px 5px 5px;
@@ -122,7 +124,7 @@ input[type=email]{
   font-size: 1em;
 }
 input[type=number]{
-  width: 340px;
+  width: 95%;
   height: 30px;
   margin: 8px 0;
   border-radius: 5px 5px 5px 5px;
@@ -131,7 +133,7 @@ input[type=number]{
   font-size: 1em;
 }
 input[type=date]{
-  width: 340px;
+  width: 95%;
   height: 30px;
   margin: 8px 0;
   border-radius: 5px 5px 5px 5px;
@@ -146,7 +148,7 @@ input::placeholder{
 }
 
 input[type=tel]{
-  width: 340px;
+  width: 95%;
   height:30px;
   margin: 8px 0;
   border-radius: 5px 5px 5px 5px;
@@ -159,15 +161,15 @@ input[type=submit]{
   padding: 16px 32px;
   text-align: center;
   display: inline-block;
+  position:relative;
+  left: 50%;
+  margin-left: -50px;
   font-size: 15px;
-  margin: 20px 840px;
   background-color: steelblue;
   border-radius: 5px 5px 5px 5px;
   color: Azure;
   border: 2px solid steelblue;
 }
-
-
 button{
   padding: 16px 32px;
   display: inline-block;
@@ -194,17 +196,15 @@ button:hover{
   color: steelblue;
   padding-bottom: 16px;
   margin-top: 10px;
-  margin-left: 6em;
 }
 
 #text_center{
-  text-align: left;
+  text-align: center;
   font-size: 1em;
   font-weight: bold;
   color: steelblue;
   padding-bottom: 16px;
   margin-top: 1px;
-  margin-left: 25em;
 }
 
 #about-content{
@@ -269,20 +269,16 @@ button:hover{
     list-style-type: circle;
   }
   #pic1{
-    width: 32%;
-    height: 12%;
-    padding-left: 20px;
-    position:absolute;
-    left:0px;
-    top:500px;
+    max-width: 70%;
+    height: relative;
+    position:relative;
+    margin-left: 15%;
   }
   #signup_form{
     border-style: inset;
     border: 2px solid steelblue;
     border-radius: 5px 5px 5px 5px;
-    width: 63%;
-    margin: 8px 190px;
-
+    margin: 5% 10%;
   }
   #text_center{
     text-align: center;
@@ -301,9 +297,9 @@ button:hover{
   }
 
   input[type=text]{
-    width: 160px;
+    width: 80%;
     height: 30px;
-    margin: 10px 0;
+    margin: 8px 0;
     border-radius: 5px 5px 5px 5px;
     background-color: Azure;
     border: solid steelblue;
@@ -311,7 +307,7 @@ button:hover{
   }
 
   input[type=email]{
-    width: 160px;
+    width: 80%;
     height: 30px;
     margin: 8px 0;
     border-radius: 5px 5px 5px 5px;
@@ -319,9 +315,8 @@ button:hover{
     border: solid steelblue;
     font-size: 1em;
   }
-
   input[type=tel]{
-    width: 160px;
+    width: 80%;
     height:30px;
     margin: 8px 0;
     border-radius: 5px 5px 5px 5px;
@@ -329,13 +324,14 @@ button:hover{
     border: solid steelblue;
     font-size: 1em;
   }
-
   input[type=submit]{
     padding: 16px 32px;
     text-align: center;
     display: inline-block;
     font-size: 15px;
-    margin: 20px 300px;
+    position:relative;
+    left: 50%;
+    margin-left: -50px;
     background-color: steelblue;
     border-radius: 5px 5px 5px 5px;
     color: Azure;
@@ -350,8 +346,6 @@ button:hover{
     margin-top: 10px;
     margin-left: 0em;
   }
-
-
 
 }
 
@@ -372,6 +366,28 @@ button:hover{
     font-size: 1.5em;
     padding-top: 40px;
   }
+  #pic1{
+
+    max-width: 30%;
+    height: relative;
+    position:absolute;
+    margin-left: 10%;
+    top: 400px;
+  }
+  #signup_form{
+    border-style: inset;
+    border: 2px solid steelblue;
+    border-radius: 5px 5px 5px 5px;
+    width: 36%;
+    margin: 8px 8px 0 60%;
+  }
+  input[type=submit]{
+    position:relative;
+    left: 75%;
+    margin-left: -25px;
+    margin-top: 8px;
+  }
+
   #pic2{
     width: 80%;
   }
@@ -422,27 +438,11 @@ button:hover{
   }
   #pic1{
     width: 40%;
-    height: 40%;
+    height: relative;
     padding-left: 20px;
     position:absolute;
     left:5px;
     top:400px;
-  }
-  #signup_form{
-    border-style: inset;
-    border: 2px solid steelblue;
-    border-radius: 5px 5px 5px 5px;
-    width: 36%;
-    margin: 8px 650px;
-  }
-  #text_center{
-    text-align: left;
-    font-size: 1em;
-    font-weight: bold;
-    color: steelblue;
-    padding-bottom: 16px;
-    margin-top: 1px;
-    margin-left: 25em;
   }
   #first_name, #last_name, #email, #phone, #date_of_birth{
     padding-bottom: .3em;
@@ -450,64 +450,14 @@ button:hover{
     font-weight: bold;
     color: Black;
   }
-
-  input[type=text]{
-    width: 240px;
-    height: 30px;
-    margin: 10px 0;
-    border-radius: 5px 5px 5px 5px;
-    background-color: Azure;
-    border: solid steelblue;
-    font-size: 1em;
-  }
-
-  input[type=email]{
-    width: 340px;
-    height: 30px;
-    margin: 8px 0;
-    border-radius: 5px 5px 5px 5px;
-    background-color: Azure;
-    border: solid steelblue;
-    font-size: 1em;
-  }
-
-  input::placeholder{
-    color: lightblue;
-    font-size: 0.8em;
-    font-style: italic;
-  }
-
-  input[type=tel]{
-    width: 340px;
-    height:30px;
-    margin: 8px 0;
-    border-radius: 5px 5px 5px 5px;
-    background-color: Azure;
-    border: solid steelblue;
-    font-size: 1em;
-  }
-
   input[type=submit]{
-    padding: 16px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 15px;
-    margin: 20px 840px;
-    background-color: steelblue;
-    border-radius: 5px 5px 5px 5px;
-    color: Azure;
-    border: 2px solid steelblue;
-  }
-  #center{
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: steelblue;
-    padding-bottom: 16px;
-    margin-top: 10px;
-    margin-left: 6em;
+    position:relative;
+    left: 75%;
+    margin-left: -25px;
+    margin-top: 8px;
   }
   .button{
     margin-left: 6em;
   }
+
 }
