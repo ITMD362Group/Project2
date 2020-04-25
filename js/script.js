@@ -1,5 +1,5 @@
 function AlertPage() {
-  alert("Thank you for signing up!");
+  alert("Thank you for subscribing!");
   return false;
 }
 function submitPayment() {
