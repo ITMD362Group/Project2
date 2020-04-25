@@ -13,3 +13,6 @@ function submitPayment() {
     alert("Great, you're all signed up!")
 }
 }
+
+var d = new Date();
+document.getElementById("time").innerHTML = d;
