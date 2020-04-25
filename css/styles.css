@@ -367,7 +367,6 @@ button:hover{
     padding-top: 40px;
   }
   #pic1{
-
     max-width: 30%;
     height: relative;
     position:absolute;
@@ -460,4 +459,86 @@ button:hover{
     margin-left: 6em;
   }
 
+}
+@media screen and (min-width: 1366px) {
+  #signup_form{
+    border-style: inset;
+    border: 2px solid steelblue;
+    border-radius: 5px 5px 5px 5px;
+    width: 36%;
+    margin: 8px 8px 0 60%;
+}
+input[type=text]{
+  width: 85%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+
+input[type=email]{
+  width: 85%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input[type=number]{
+  width: 85%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input[type=date]{
+  width: 85%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input::placeholder{
+  color: lightblue;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+input[type=tel]{
+  width: 85%;
+  height:30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+
+input[type=submit]{
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  position:relative;
+  left: 50%;
+  margin-left: -50px;
+  font-size: 15px;
+  background-color: steelblue;
+  border-radius: 5px 5px 5px 5px;
+  color: Azure;
+  border: 2px solid steelblue;
+}
+#pic1{
+  max-width: 80%;
+  height: relative;
+  position:absolute;
+  margin-left: 10%;
+  top: 450px;
+}
 }
