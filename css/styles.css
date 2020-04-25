@@ -2,7 +2,7 @@ html{
   font-family: 'Merriweather', Times, serif;
   padding-bottom: 40px;
 }
-h1 {
+h1{
   color: #296d98;
   text-align:center;
   font-size: 1.2em;
@@ -44,10 +44,10 @@ h3{
 .link:hover{
   color: #192841;
 }
-li {
+li{
   display: inline;
 }
-ul {
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -58,7 +58,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-li a {
+li a{
   display:block;
   color: white;
   text-align: center;
@@ -67,16 +67,16 @@ li a {
   flex-wrap: wrap;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.active){
   background-color: lightgrey;
   color: black;
 }
 
-.active {
+.active{
   background-color: #192841;
   font-weight: bold;
 }
-.footer {
+.footer{
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -84,7 +84,7 @@ li a:hover:not(.active) {
   color: white;
   text-align: center;
 }
-form {
+form{
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
@@ -146,7 +146,6 @@ input::placeholder{
   font-size: 0.8em;
   font-style: italic;
 }
-
 input[type=tel]{
   width: 95%;
   height:30px;
@@ -156,7 +155,6 @@ input[type=tel]{
   border: solid steelblue;
   font-size: 1em;
 }
-
 input[type=submit]{
   padding: 16px 32px;
   text-align: center;
@@ -188,7 +186,6 @@ button:hover{
   background-color: white;
   color: black;
 }
-
 #center{
   text-align: center;
   font-size: 1.5em;
@@ -197,7 +194,6 @@ button:hover{
   padding-bottom: 16px;
   margin-top: 10px;
 }
-
 #text_center{
   text-align: center;
   font-size: 1em;
@@ -206,7 +202,6 @@ button:hover{
   padding-bottom: 16px;
   margin-top: 1px;
 }
-
 #about-content{
   text-align: unset;
 }
@@ -235,7 +230,7 @@ button:hover{
 }
 .images div {
   flex:1;
-  margin:5px; /* need some space ?*/
+  margin:5px;
 }
 .images img {
   width:100%;
@@ -295,7 +290,6 @@ button:hover{
     font-weight: bold;
     color: Black;
   }
-
   input[type=text]{
     width: 80%;
     height: 30px;
@@ -305,7 +299,6 @@ button:hover{
     border: solid steelblue;
     font-size: 1em;
   }
-
   input[type=email]{
     width: 80%;
     height: 30px;
@@ -346,10 +339,8 @@ button:hover{
     margin-top: 10px;
     margin-left: 0em;
   }
-
 }
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
   h1{
     font-size: 1.7em;
     text-align: center;
@@ -386,7 +377,6 @@ button:hover{
     margin-left: -25px;
     margin-top: 8px;
   }
-
   #pic2{
     width: 80%;
   }
@@ -411,9 +401,8 @@ button:hover{
     width:80%;
     border-radius: 50%;
   }
-
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1100px){
   h1{
     font-size: 2.2em;
   }
@@ -458,9 +447,8 @@ button:hover{
   .button{
     margin-left: 6em;
   }
-
 }
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1366px){
   #signup_form{
     border-style: inset;
     border: 2px solid steelblue;
@@ -477,7 +465,6 @@ input[type=text]{
   border: solid steelblue;
   font-size: 1em;
 }
-
 input[type=email]{
   width: 85%;
   height: 30px;
@@ -510,7 +497,6 @@ input::placeholder{
   font-size: 0.8em;
   font-style: italic;
 }
-
 input[type=tel]{
   width: 85%;
   height:30px;
@@ -520,7 +506,6 @@ input[type=tel]{
   border: solid steelblue;
   font-size: 1em;
 }
-
 input[type=submit]{
   padding: 16px 32px;
   text-align: center;
