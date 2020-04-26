@@ -1,0 +1,529 @@
+html{
+  font-family: 'Merriweather', Times, serif;
+  padding-bottom: 40px;
+}
+h1{
+  color: #296d98;
+  text-align:center;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+h1 img{
+  display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 35%;
+}
+h3{
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.1em;
+  font-weight: bold;
+  color: steelblue;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#pic2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#pic1{
+  max-width: 100%;
+  height: relative;
+  position:relative;
+}
+.link{
+  text-decoration: none;
+  color: #296d98;
+}
+.link:hover{
+  color: #192841;
+}
+li{
+  display: inline;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #296d98;
+}
+.links{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+li a{
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+
+li a:hover:not(.active){
+  background-color: lightgrey;
+  color: black;
+}
+
+.active{
+  background-color: #192841;
+  font-weight: bold;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #296d98;
+  color: white;
+  text-align: center;
+}
+form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#signup_form{
+  border-style: inset;
+  border: 2px solid steelblue;
+  border-radius: 5px 5px 5px 5px;
+  margin: 8px;
+}
+
+#first_name, #last_name, #email, #phone, #date_of_birth,
+#date, #cc{
+  padding-bottom: .3em;
+  font-size: 1em;
+  font-weight: bold;
+  color: Black;
+}
+
+input[type=text]{
+  width: 95%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+
+input[type=email]{
+  width: 95%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input[type=number]{
+  width: 95%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input[type=date]{
+  width: 95%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input::placeholder{
+  color: lightblue;
+  font-size: 0.8em;
+  font-style: italic;
+}
+input[type=tel]{
+  width: 95%;
+  height:30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input[type=submit]{
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  position:relative;
+  left: 50%;
+  margin-left: -50px;
+  font-size: 15px;
+  background-color: steelblue;
+  border-radius: 5px 5px 5px 5px;
+  color: Azure;
+  border: 2px solid steelblue;
+}
+button{
+  padding: 16px 32px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 20px 30px;
+  background-color: steelblue;
+  border-radius: 5px 5px 5px 5px;
+  color: Azure;
+  border: 2px solid steelblue;
+}
+input[type=submit]:hover{
+  background-color: white;
+  color: black;
+}
+button:hover{
+  background-color: white;
+  color: black;
+}
+#center{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: steelblue;
+  padding-bottom: 16px;
+  margin-top: 10px;
+}
+#text_center{
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: steelblue;
+  padding-bottom: 16px;
+  margin-top: 1px;
+}
+#about-content{
+  text-align: unset;
+}
+#about-content p,
+#about-content ul{
+  display: inline-block;
+  font-size: 1em;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-bottom: 20px;
+  text-align: left;
+}
+#questions{
+  background-color: unset;
+  list-style-type: unset;
+  display: inline-block;
+  padding-left: 20px;
+}
+#questions li{
+  margin-left: 10px;
+  display: list-item;
+  list-style-type: circle;
+}
+.images{
+  display: flex;
+}
+.images div {
+  flex:1;
+  margin:5px;
+}
+.images img {
+  width:100%;
+  border-radius: 50%;
+}
+@media screen and (min-width: 375px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  h3{
+    padding-top: 20px;
+    font-size: 1.4em;
+  }
+  #pic2{
+    width: 90%;
+    margin: auto;
+  }
+  #about-content p,
+  #about-content ul{
+    padding: unset;
+    margin:unset;
+    display: inline-block;
+    font-size: 1.2em;
+    padding-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 20px;
+  }
+  #questions li{
+    margin-left: 30px;
+    display: list-item;
+    list-style-type: circle;
+  }
+  #pic1{
+    max-width: 70%;
+    height: relative;
+    position:relative;
+    margin-left: 15%;
+  }
+  #signup_form{
+    border-style: inset;
+    border: 2px solid steelblue;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5% 10%;
+  }
+  #text_center{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: steelblue;
+    padding-bottom: 16px;
+    margin-top: 10px;
+    margin-left: 0em;
+  }
+  #first_name, #last_name, #email, #phone, #date_of_birth{
+    padding-bottom: .3em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: Black;
+  }
+  input[type=text]{
+    width: 80%;
+    height: 30px;
+    margin: 8px 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: Azure;
+    border: solid steelblue;
+    font-size: 1em;
+  }
+  input[type=email]{
+    width: 80%;
+    height: 30px;
+    margin: 8px 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: Azure;
+    border: solid steelblue;
+    font-size: 1em;
+  }
+  input[type=tel]{
+    width: 80%;
+    height:30px;
+    margin: 8px 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: Azure;
+    border: solid steelblue;
+    font-size: 1em;
+  }
+  input[type=submit]{
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    position:relative;
+    left: 50%;
+    margin-left: -50px;
+    background-color: steelblue;
+    border-radius: 5px 5px 5px 5px;
+    color: Azure;
+    border: 2px solid steelblue;
+  }
+  #center{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: steelblue;
+    padding-bottom: 16px;
+    margin-top: 10px;
+    margin-left: 0em;
+  }
+}
+@media screen and (min-width: 768px){
+  h1{
+    font-size: 1.7em;
+    text-align: center;
+  }
+  h1 img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: unset;
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  h3{
+    font-size: 1.5em;
+    padding-top: 40px;
+  }
+  #pic1{
+    max-width: 30%;
+    height: relative;
+    position:absolute;
+    margin-left: 10%;
+    top: 400px;
+  }
+  #signup_form{
+    border-style: inset;
+    border: 2px solid steelblue;
+    border-radius: 5px 5px 5px 5px;
+    width: 36%;
+    margin: 8px 8px 0 60%;
+  }
+  input[type=submit]{
+    position:relative;
+    left: 75%;
+    margin-left: -25px;
+    margin-top: 8px;
+  }
+  #pic2{
+    width: 80%;
+  }
+  #about-content p,
+  #about-content ul{
+    padding: unset;
+    display: inline-block;
+    font-size: 1.2em;
+    line-height: 1.1em;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-bottom: 20px;
+  }
+  #questions li{
+    margin-left: 40px;
+    display: list-item;
+    list-style-type: circle;
+  }
+  .images img {
+    padding-left: 10%;
+    padding-right: 10%;
+    width:80%;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 1100px){
+  h1{
+    font-size: 2.2em;
+  }
+  h3{
+    font-size: 1.8em;
+    padding-top: 60px;
+  }
+  #pic2{
+    width: 60%;
+  }
+  #about-content p,
+  #about-content ul{
+    font-size: 1.2em;
+    line-height: 1.1em;
+    margin-right: 24%;
+    margin-left: 24%;
+    padding-bottom: 20px;
+  }
+  #questions{
+    padding-left: 40px;
+  }
+  #pic1{
+    width: 40%;
+    height: relative;
+    padding-left: 20px;
+    position:absolute;
+    left:5px;
+    top:400px;
+  }
+  #first_name, #last_name, #email, #phone, #date_of_birth{
+    padding-bottom: .3em;
+    font-size: 1em;
+    font-weight: bold;
+    color: Black;
+  }
+  input[type=submit]{
+    position:relative;
+    left: 75%;
+    margin-left: -25px;
+    margin-top: 8px;
+  }
+  .button{
+    margin-left: 6em;
+  }
+}
+@media screen and (min-width: 1366px){
+  #signup_form{
+    border-style: inset;
+    border: 2px solid steelblue;
+    border-radius: 5px 5px 5px 5px;
+    width: 36%;
+    margin: 8px 8px 0 60%;
+}
+input[type=text]{
+  width: 85%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input[type=email]{
+  width: 85%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input[type=number]{
+  width: 85%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input[type=date]{
+  width: 85%;
+  height: 30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input::placeholder{
+  color: lightblue;
+  font-size: 0.8em;
+  font-style: italic;
+}
+input[type=tel]{
+  width: 85%;
+  height:30px;
+  margin: 8px 0;
+  border-radius: 5px 5px 5px 5px;
+  background-color: Azure;
+  border: solid steelblue;
+  font-size: 1em;
+}
+input[type=submit]{
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  position:relative;
+  left: 50%;
+  margin-left: -50px;
+  font-size: 15px;
+  background-color: steelblue;
+  border-radius: 5px 5px 5px 5px;
+  color: Azure;
+  border: 2px solid steelblue;
+}
+#pic1{
+  max-width: 80%;
+  height: relative;
+  position:absolute;
+  margin-left: 10%;
+  top: 450px;
+}
+}
